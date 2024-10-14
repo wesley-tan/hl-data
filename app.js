@@ -3,7 +3,7 @@ import { spawn } from 'child_process';
 
 // Your Supabase project URL and public API key from the dashboard
 const supabaseUrl = SUPABASE_URL;
-const supabaseKey = SUPERBASE_KEY;
+const supabaseKey = SUPABASE_KEY;
 
 // Create a Supabase client instance
 const supabase = createClient(supabaseUrl, supabaseKey);
