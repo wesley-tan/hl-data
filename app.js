@@ -2,8 +2,8 @@ import { createClient } from '@supabase/supabase-js';
 import { spawn } from 'child_process';
 
 // Your Supabase project URL and public API key from the dashboard
-const supabaseUrl = 'https://divqlaaksyhfwouazjsf.supabase.co';
-const supabaseKey = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRpdnFsYWFrc3loZndvdWF6anNmIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTcyODc1MzY4NCwiZXhwIjoyMDQ0MzI5Njg0fQ.OfqRIUI1OI7b5HEFRT_gu0uHKKieu614XKZ8NiskqnM';
+const supabaseUrl = SUPABASE_URL;
+const supabaseKey = SUPERBASE_KEY;
 
 // Create a Supabase client instance
 const supabase = createClient(supabaseUrl, supabaseKey);
