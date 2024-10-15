@@ -2,11 +2,10 @@ const axios = require('axios');
 const { createClient } = require('@supabase/supabase-js');
 
 // Prometheus and Supabase settings
-const NODE_EXPORTER_URL = 'http://195.26.241.230:9100'; // Node Exporter URL
-const HL_EXPORTER_URL = 'http://195.26.241.230:8086'; // HL Exporter URL
-const SUPABASE_URL = 'https://divqlaaksyhfwouazjsf.supabase.co';
-const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRpdnFsYWFrc3loZndvdWF6anNmIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTcyODc1MzY4NCwiZXhwIjoyMDQ0MzI5Njg0fQ.OfqRIUI1OI7b5HEFRT_gu0uHKKieu614XKZ8NiskqnM';
-
+const NODE_EXPORTER_URL =  // Node Exporter URL
+const HL_EXPORTER_URL = // HL Exporter URL
+const SUPABASE_URL = // SUPABASE_URL 
+const SUPABASE_KEY = // SUPABASE_KEY
 
 // Initialize Supabase client
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
